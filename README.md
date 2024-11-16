@@ -112,22 +112,12 @@ TELEGRAM_CHAT_ID="your_telegram_chat_id"
 
 ## Deployment
 
-The **Smart Publisher Pro** can be deployed on Streamlit Cloud. Follow these steps:
+The **Smart Publisher Pro** di deployed on Streamlit Cloud.
 
-1. **Push to GitHub**: Ensure your code is available in a GitHub repository.
-2. **Set Up on Streamlit Cloud**:
-   - Go to [Streamlit Cloud](https://streamlit.io/cloud).
-   - Create a new app connected to your GitHub repository.
-   - Set environment variables for Gemini API keys, Telegram token, and chat ID in Streamlit Cloud’s settings.
-3. **Deploy**: Start deployment to make your app accessible with a shareable link.
 
-## Testing
-
-1. **Unit Testing**:
-   - Test individual modules, such as `summarizer.py` for API responses, `quota.py` for quota rotation logic, and `telegram.py` for Telegram integration.
+   - Go to APP [Smart Publisher Pro](https://smart-publisher-pro.streamlit.app/).
    
-2. **Integration Testing**:
-   - Verify the end-to-end workflow from file upload, summarization, to Telegram message posting.
+
 
 ## Contribution Guidelines
 
@@ -143,6 +133,6 @@ Contributions to improve the project are welcome! Follow these steps to contribu
 3. **Scheduled Summarization**: Implement automated summarization and sharing at scheduled times.
 4. **Advanced Error Monitoring**: Integrate logging and real-time error monitoring for better diagnostics.
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details. -->
