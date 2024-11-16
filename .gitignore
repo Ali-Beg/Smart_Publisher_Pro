@@ -1,0 +1,10 @@
+# Ignore src and utils directories
+
+
+# Ignore any environment files and virtual environment
+.env
+venv/
+
+# Ignore Python cache and other temporary files
+__pycache__/
+*.pyc
