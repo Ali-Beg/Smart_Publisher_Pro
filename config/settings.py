@@ -14,8 +14,8 @@ if not GEMINI_API_KEYS or GEMINI_API_KEYS[0] == '':
     raise ValueError("GEMINI_API_KEYS environment variable is not set")
 
 # Telegram Configuration - Use raw values for testing
-# TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '7966041408:AAHfx7fdbLFYzoYHcCP5ooStTPbHW5Jl1zE')
-# TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '-1002488524644')
+# TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', 'xxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+# TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '-xxxxxxxxxxx')
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
 

@@ -9,6 +9,13 @@ from src.utils.quota import QuotaManager
 
 class ContentSummarizer:
     def __init__(self, max_retries=MAX_RETRIES, initial_backoff=INITIAL_BACKOFF):
+        """
+        Initialize the ContentSummarizer with retry and backoff settings.
+
+        Args:
+            max_retries (int): Maximum number of retries for API calls.
+            initial_backoff (int): Initial backoff time in seconds for retries.
+        """
         self.max_retries = max_retries
         self.initial_backoff = initial_backoff
         self.quota_manager = QuotaManager()
@@ -153,7 +160,7 @@ class ContentSummarizer:
         - Use varied sentence structures and transitions
         - Include specific details and numbers when relevant
         - Avoid formulaic or robotic language
-        - Keep the summary to 1-2 short papagraphs "short"
+        - Keep the summary to 1-2 short paragraphs "short"
         - Add contextual insights where appropriate
         - Use light narrative elements to make the summary more engaging      
         Remember: The summary should flow naturally and feel like it was written by a human journalist or content writer, not an AI system.
